@@ -38,3 +38,28 @@ console.log(typeof outsideTemp);// datatype ==> object
 console.log(typeof myFuction);//datatype ==> Function
 console.log(typeof heros); // datatype ==>  object
 console.log(typeof anotherId); // datatype ==> Symbol
+
+
+//++++++++++++++++++++++
+// Stack (primitive) , Heap (Non-Primitive)
+
+let myname = "SharimShaikh"
+
+let anothername = myname
+
+anothername = "shaikhsharim"
+console.log(myname);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Sharim@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
